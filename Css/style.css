@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #F5F3F4;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.nav__wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 32px 28px 32px;
+
+}
+
+.nav__logo {
+    width: 130px;
+    height: 40px;
+}
+
+.nav__list>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 48px;
+}
+
+.nav__wrapper button {
+    width: 80px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.nav__list a {
+    color: #12100C;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1320px;
+    height: 672px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text__title {
+    width: 560px;
+    height: 414px;
+}
+
+.text__title h2 {
+    font-size: 80px;
+    line-height: 88px;
+    font-weight: 700;
+    color: #12100C;
+    padding-bottom: 32px;
+}
+
+.text__title p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #12100C;
+    opacity: 0.7;
+    padding-bottom: 48px;
+}
+
+.button__text {
+    width: 450px;
+    height: 48px;
+}
+
+.hero__button .button__text a {
+    padding: 12px 46px 12px 50px;
+    width: 160px;
+    height: 48px;
+    background-color: #FFAE33;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+
+.hero__button .button__text {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 0px 24px;
+}
+
+.hero__logo {
+    display: flex;
+    align-items: center;
+    gap: 0px 28px;
+    margin-top: 16px;
+    margin-left: 13px;
+}
+
+.text__body {
+    height: 572px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 18px 0px;
+    background-color: #F5F3F4;
+}
+
+.text__wrapper h2 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 400;
+    color: #12100C;
+    text-align: center;
+}
+
+.text__linethrough {
+    text-decoration: line-through;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.for__dev {
+    height: 792px;
+}
+
+.dev__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0px 66px;
+    margin-top: 160px;
+}
+
+
+.dev__text {
+    width: 655px;
+    margin-top: 56px;
+}
+
+.dev__text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #12100C;
+}
+
+.dev__text p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.dev__button {
+    margin-top: 155px;
+}
+
+.dev__button a {
+    width: 162px;
+    height: 32px;
+    background-color: #FFAE33;
+    padding: 9px 18px 9px 18px;
+    border-radius: 20px;
+    color: black;
+}
+
+.dev__button>.button_plum {
+    background-color: #FFB0AE;
+    padding: 9px 24px 9px 24px;
+    margin-left: 16px;
+}
+
+.byDesign__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.byDesign__container h3 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.byDesign__container p {
+    margin: 49px 0px 30px 0px;
+    width: 900px;
+    height: 96px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.button__byDesign {
+    margin-bottom: 100px;
+    margin-top: 55px;
+}
+
+.button__byDesign a img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.button__byDesign a {
+    width: 207;
+    height: 47px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+}
